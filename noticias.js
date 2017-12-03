@@ -17,7 +17,6 @@ var server = http.createServer( function(req, res) {
 
 });
 
-
 // Ligando servidor
 if(server.listen(3000)) { 
   console.log('Servidor ativado. Para desliga-lo, pressionar CTRL + C.')

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/guilessa/gerador-de-arte-node#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "gitignore": "^0.6.0"
   }
 }
