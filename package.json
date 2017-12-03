@@ -1,0 +1,23 @@
+{
+  "name": "gerador-de-arte-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "noticias.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilessa/gerador-de-arte-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilessa/gerador-de-arte-node/issues"
+  },
+  "homepage": "https://github.com/guilessa/gerador-de-arte-node#readme",
+  "dependencies": {
+    "gitignore": "^0.6.0"
+  }
+}
