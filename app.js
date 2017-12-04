@@ -1,6 +1,9 @@
 var express = require('express');
 var app = express();
 
+// Fazendo a requisição do módulo modtest
+var msg = require('./modtest')();
+
 // Troca a engine do express para utilizar o EJS nas views
 app.set('view engine', 'ejs');
 
