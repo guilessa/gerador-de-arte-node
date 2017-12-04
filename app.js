@@ -6,12 +6,17 @@ app.set('view engine', 'ejs');
 
 // Cria às páginas
 app.get('/', function(req, res) {
-  res.send("<html><body>HTML</body></html>")
+  res.render("home/index")
 });
 
-app.get('/moda', function(req, res) {
+app.get('/noticias', function(req, res) {
   // Renderiza as views
-  res.render('secao/moda')
+  res.render('noticias/noticias')
+});
+
+app.get('/formulario', function(req, res) {
+  // Renderiza as views
+  res.render('admin/form_add_noticia')
 });
 
 // Sobe o server na porta 3000
