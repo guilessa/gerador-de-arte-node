@@ -4,3 +4,9 @@ module.exports = function(app) {
     res.render('noticias/noticias')
   });
 }
+
+class Teste {
+  testFunc() {
+    return false
+  }
+}
